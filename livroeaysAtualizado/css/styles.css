@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Ubuntu";
+    text-align: center;
+
+}
+
+h1,
+h4,
+h5,
+h6 {
+    font-family: "Ubuntu";
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px #333;
+    color:#FFFFF0;
+}
+
+p {
+    color:#212121;
+    font-size: 1.6em;
+    font-family: "Ubuntu";
+ }
+ 
+ h3{
+        font-size: 2.5rem!important;
+        font-family: "Ubuntu";
+        font-weight: bold;
+        text-shadow: 2px 2px 10px #333;
+        color: #FFFFF0!important;
+ }
+
+h2{
+    font-size: 2.3rem!important;
+    font-family: "Ubuntu";
+    text-shadow: 2px 2px 10px #333;
+    color:#FFFFF0!important;
+ }
+
+
+/* Headings */
+
+.big-heading {
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #FFFFF0;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section {
+    background-color:#00BCD4;
+}
+
+.white-section {
+    background-color: #00BCD4!importante;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px #333;
+    color:#FFFFFF!important;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.6rem;
+    font-family: "Ubuntu";
+    color:#FFFFF0!important; 
+}
+.nav-link:hover{
+    color:rgba(255, 255, 255,1)!important; 
+}
+
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title Section */
+
+#title {
+    
+    background-color:#00BCD4; 
+    color:#9E9E9E;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+
+}
+
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+
+/* Features Section */
+
+#features {
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    color:#212121!important;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color:#00BCD4!important;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color:#020202!important;
+}
+
+
+/* attestant Section */
+
+#attestants {
+    background-color: #A47A6A;
+}
+
+.attestant-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.attestant-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    box-shadow: 0 0 5px #333;
+}
+
+#press {
+    background-color:#A47A6A;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* preco Section */
+
+#preco {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.preco-column {
+    padding: 3% 2%;
+}
+
+
+/* dow Section */
+
+
+/* Footer Section */
+
+.social-icon {
+    margin: 20px 10px;
+    
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+#FFFFFF
